@@ -64,28 +64,6 @@ class hotel():
 					print("wrong details")
 		else:
 			print("wrong input")
-		
-
-		# for i in rooms.values():
-		# 	for j in i:
-		# 		if RoomNO==j and Name==i[j]['name']:
-		# 			i[j]['name']=""
-		# 			i[j]['phno']=""                 
-		# 			print("Thanks For visiting our hotel") 
-		# 			data.append("Name :"+Name+" - RoomNo :"+RoomNO)
-		# 			with open('checkout.csv','a') as csvfile:
-		# 				csvwriter = csv.writer(csvfile,dialect='excel')
-		# 				csvwriter.writerow(data)
-		# 				csvfile.close()
-		# 				data.clear()
-		# 			break
-		# 		else:
-		# 			print("no")
-				
-		#else:
-			#print("invalid details")
-			#break
-			#raise Exception("invalid details")
     
 class customer():
 #customer_data function to return the details of residing in a given room
